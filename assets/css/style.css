@@ -11,17 +11,25 @@
     transform: translateX(-50%) translateY(-50%);
     background-size: cover;
 }
-.container h1 {
-    font-family: 'Archivo Black', sans-serif;
-}
 .construction {
+  font-family: 'Archivo Black', sans-serif;
   text-align: center;
   color: #707070;
   font-size: 100px;
 }
-a {
-  color: #3d3d3d;
-}
 .spacer {
   height: 150px;
+}
+.footer {
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  height:30px;
+  color: white;
+  text-align: center;
+}
+a {
+  color: #464646;
+  text-align: right;
 }
