@@ -15,7 +15,7 @@
   font-family: 'Archivo Black', sans-serif;
   text-align: center;
   color: #707070;
-  font-size: 100px;
+  font-size: 8em;
 }
 .spacer {
   height: 150px;
@@ -32,4 +32,17 @@
 a {
   color: #464646;
   text-align: right;
+}
+
+
+@media screen and (max-width: 768px) {
+  .construction {
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    color: #707070;
+    font-size: 48px;
+  }
+  .spacer {
+    height: 70px;
+  }
 }
