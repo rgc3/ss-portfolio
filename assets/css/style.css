@@ -9,9 +9,19 @@
     z-index: -100;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
     background-size: cover;
 }
 .container h1 {
-    color: white;
+    font-family: 'Archivo Black', sans-serif;
+}
+.construction {
+  text-align: center;
+  color: #707070;
+  font-size: 100px;
+}
+a {
+  color: #3d3d3d;
+}
+.spacer {
+  height: 150px;
 }
