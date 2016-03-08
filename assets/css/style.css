@@ -23,3 +23,12 @@
   float: right;
   padding-right: 20px;
 }
+
+/*About Page*/
+.img-thumbnail {
+  height: 200px;
+}
+
+.about {
+  margin-top: 50px;
+}
