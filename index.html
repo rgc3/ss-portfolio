@@ -1,96 +1,80 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Robert G. Cunningham III | Web Developer</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Fonts -->
+    <meta name="author" content="Robert Cunningham">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- internet explorer rendering mode -->
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
 
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/aboutstyle.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <title>Robert G. Cunningham III, Web Developer</title>
   </head>
-
   <body>
-    <div class="header">
-      <div class="header-text">
-        <h1 class="name">Robert G. Cunningham III</h1>
-        <h3 class="sub-head">Ruby on Rails Developer</h3>
+
+    <nav class="navbar navbar-light bg-faded">
+      <div class="nav navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">About</a>
       </div>
-    </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-3">Robert G. Cunningham III</h1>
+        <p class="lead">Web Developer</p>
+      </div> <!-- container -->
+    </div> <!-- Jumbotron -->
 
     <div class="container">
       <div class="row">
-        <h2>Projects</h2>
-        <div class="col-sm-6">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <img src="assets/img/accountable1.jpg" width="425" alt="Accountable App">
+        <div class="col-md-5"> <!-- Left Column -->
+          <div class="card">
+            <!-- Image -->
+            <img class="card-img-top img-fluid" src="assets/img/accountable1.jpg" alt="Accountable App">
+            <!-- Text Content -->
+            <div class="card-block">
+              <p class="card-text">Final class project.</p>
             </div>
-            <div class="panel-footer">Accountability App | Group Project</div>
-          </div> <!-- Panel -->
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <img src="http://placehold.it/425x150">
+          </div> <!-- card -->
+
+          <div class="card">
+            <!-- Image -->
+            <img class="card-img-top img-fluid" src="assets/img/blog1.jpg" alt="Blog App">
+            <!-- Text Content -->
+            <div class="card-block">
+              <p class="card-text">Blog App.</p>
             </div>
-            <div class="panel-footer">New App</div>
-          </div> <!-- Panel -->
-        </div> <!-- Column -->
+          </div> <!-- card -->
 
-        <div class="col-sm-6">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <img src="assets/img/blog1.jpg" width="425" alt="Blog App">
+
+        </div> <!-- Left Column -->
+        <div class="col-md-2"> <!-- Center Column -->
+          <i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i><br />
+          <i class="fa fa-github-square fa-5x" aria-hidden="true"></i><br />
+          <i class="fa fa-twitter-square fa-5x" aria-hidden="true"></i><br />
+          <i class="fa fa-envelope-square fa-5x" aria-hidden="true"></i>
+        </div> <!-- Center Column -->
+        <div class="col-md-5"> <!-- Right Column -->
+          <div class="card">
+            <!-- Image -->
+            <img class="card-img-top img-fluid" src="assets/img/glacial_headshot.jpg" alt="Headshot">
+            <!-- Text Content -->
+            <div class="card-block">
+              <p class="card-text">About me.</p>
             </div>
-            <div class="panel-footer">Blog App</div>
-          </div> <!-- Panel -->
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <img src="http://placehold.it/425x150">
-            </div>
-            <div class="panel-footer">Twitter App</div>
-          </div> <!-- Panel -->
-        </div> <!-- Column -->
+          </div> <!-- card -->
+        </div> <!-- Right Column -->
+      </div>
 
-      </div> <!-- Row -->
+    </div> <!-- page container -->
 
-<!-- Skills and Badges -->
-      <div class="col-sm-12">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <h1>Skills / Badges</h1>
-          </div>
-        </div> <!-- Panel -->
-      </div> <!-- Column -->
-
-<!-- Places and Map -->
-      <div class="row">
-<!-- Left Column -->
-        <div class="col-md-6">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              Places
-            </div>
-          </div> <!-- Panel -->
-        </div> <!-- Collumn -->
-<!-- Right Column -->
-        <div class="col-md-6">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              Map
-            </div>
-          </div> <!-- Panel -->
-        </div> <!-- Column -->
-      </div> <!-- Row -->
-
-      <div class="col-md-12">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            Social Media Icon Links
-          </div>
-        </div> <!-- Panel -->
-      </div> <!-- Column -->
-
-    </div> <!-- Container -->
-
+    <!-- JavaScripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>
